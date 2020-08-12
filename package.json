@@ -4,7 +4,8 @@
   "description": "Generador de tarjeta de cumpleaños para Sacha Lifszyc",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/JuanesGalvis/Birthday-Card/issues"
   },
-  "homepage": "https://github.com/JuanesGalvis/Birthday-Card#readme"
+  "homepage": "https://github.com/JuanesGalvis/Birthday-Card#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }
